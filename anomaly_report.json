@@ -1,0 +1,130 @@
+{
+    "scan_timestamp": "2026-02-18T11:01:55.591655Z",
+    "total_lines_analyzed": 7,
+    "unique_words": 32,
+    "rare_word_threshold": 2,
+    "anomaly_score_threshold": 2,
+    "total_anomalies_detected": 7,
+    "top_10_most_common_words": [
+        [
+            "server",
+            2
+        ],
+        [
+            "user",
+            2
+        ],
+        [
+            "in",
+            2
+        ],
+        [
+            "connection",
+            2
+        ],
+        [
+            "started",
+            1
+        ],
+        [
+            "successfully",
+            1
+        ],
+        [
+            "on",
+            1
+        ],
+        [
+            "port",
+            1
+        ],
+        [
+            "8080",
+            1
+        ],
+        [
+            "admin",
+            1
+        ]
+    ],
+    "anomalies": [
+        {
+            "log_line": "Server started successfully on port 8080",
+            "rare_word_count": 6,
+            "rare_words_found": [
+                "server",
+                "started",
+                "successfully",
+                "on",
+                "port",
+                "8080"
+            ]
+        },
+        {
+            "log_line": "User admin logged in",
+            "rare_word_count": 4,
+            "rare_words_found": [
+                "user",
+                "admin",
+                "logged",
+                "in"
+            ]
+        },
+        {
+            "log_line": "Connection timeout occurred",
+            "rare_word_count": 3,
+            "rare_words_found": [
+                "connection",
+                "timeout",
+                "occurred"
+            ]
+        },
+        {
+            "log_line": "Database connection failed for user root",
+            "rare_word_count": 6,
+            "rare_words_found": [
+                "database",
+                "connection",
+                "failed",
+                "for",
+                "user",
+                "root"
+            ]
+        },
+        {
+            "log_line": "Unexpected token in configuration file",
+            "rare_word_count": 5,
+            "rare_words_found": [
+                "unexpected",
+                "token",
+                "in",
+                "configuration",
+                "file"
+            ]
+        },
+        {
+            "log_line": "Server running normally",
+            "rare_word_count": 3,
+            "rare_words_found": [
+                "server",
+                "running",
+                "normally"
+            ]
+        },
+        {
+            "log_line": "Unauthorized access attempt detected from 192.168.1.15",
+            "rare_word_count": 9,
+            "rare_words_found": [
+                "unauthorized",
+                "access",
+                "attempt",
+                "detected",
+                "from",
+                "192",
+                "168",
+                "1",
+                "15"
+            ]
+        }
+    ]
+}
