@@ -1,0 +1,88 @@
+{
+    "scan_timestamp": "2026-02-18T10:26:24.475416Z",
+    "total_open_ports": 10,
+    "approved_services": [],
+    "suspicious_services": [
+        {
+            "port": 60062,
+            "ip": "127.0.0.1",
+            "pid": 22512,
+            "process": "python.exe",
+            "user": "USTR\\307414",
+            "status": "suspicious"
+        },
+        {
+            "port": 139,
+            "ip": "10.11.19.186",
+            "pid": 4,
+            "process": "System",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "status": "suspicious"
+        },
+        {
+            "port": 445,
+            "ip": "0.0.0.0",
+            "pid": 4,
+            "process": "System",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "status": "suspicious"
+        },
+        {
+            "port": 52337,
+            "ip": "127.0.0.1",
+            "pid": 14476,
+            "process": "python.exe",
+            "user": "USTR\\307414",
+            "status": "suspicious"
+        },
+        {
+            "port": 60059,
+            "ip": "127.0.0.1",
+            "pid": 22512,
+            "process": "python.exe",
+            "user": "USTR\\307414",
+            "status": "suspicious"
+        },
+        {
+            "port": 3649,
+            "ip": "127.0.0.1",
+            "pid": 21316,
+            "process": "Code.exe",
+            "user": "USTR\\307414",
+            "status": "suspicious"
+        },
+        {
+            "port": 52340,
+            "ip": "127.0.0.1",
+            "pid": 14476,
+            "process": "python.exe",
+            "user": "USTR\\307414",
+            "status": "suspicious"
+        },
+        {
+            "port": 59088,
+            "ip": "127.0.0.1",
+            "pid": 19824,
+            "process": "python.exe",
+            "user": "USTR\\307414",
+            "status": "suspicious"
+        },
+        {
+            "port": 445,
+            "ip": "::",
+            "pid": 4,
+            "process": "System",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "status": "suspicious"
+        },
+        {
+            "port": 59091,
+            "ip": "127.0.0.1",
+            "pid": 19824,
+            "process": "python.exe",
+            "user": "USTR\\307414",
+            "status": "suspicious"
+        }
+    ],
+    "risk_level": "HIGH"
+}
