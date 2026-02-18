@@ -1,0 +1,26 @@
+{
+    "timestamp": "2026-02-18 16:26:58",
+    "hostname": "86531J3",
+    "os": "Windows-11-10.0.26200-SP0",
+    "kernel": "11",
+    "cpu": {
+        "usage_percent": 17.3,
+        "cores": 8
+    },
+    "memory": {
+        "total": 16543780864,
+        "available": 3809734656,
+        "used": 12734046208,
+        "percent": 77.0
+    },
+    "disk": [
+        {
+            "mount_point": "C:\\",
+            "filesystem": "NTFS",
+            "total": 253777408000,
+            "used": 79612354560,
+            "free": 174165053440,
+            "percent": 31.4
+        }
+    ]
+}
